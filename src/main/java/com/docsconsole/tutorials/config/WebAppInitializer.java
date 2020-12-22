@@ -1,4 +1,4 @@
-package com.docsconsole.tutorials.springmvc5.config;
+package com.docsconsole.tutorials.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

@@ -1,4 +1,4 @@
-package com.docsconsole.tutorials.springmvc5.config;
+package com.docsconsole.tutorials.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.JstlView;
  
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = { "com.docsconsole.tutorials.springmvc5"})
+@ComponentScan(basePackages = { "com.docsconsole.tutorials"})
 public class WebMvcConfig implements WebMvcConfigurer {
  
    @Bean
